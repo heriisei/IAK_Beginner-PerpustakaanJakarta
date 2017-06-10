@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Perpustakaan Jakarta</string>
+    <string name="p1">Jl. Salemba Raya No.28 A,
+        \nDKI Jakarta 10430</string>
+    <string name="p2">Taman Ismail Marzuki
+        \nJl. Cikini Raya No. 73,
+        \nRT.8/RW.2, Cikini, Menteng,
+        \nKota Jakarta Pusat,
+        \nDKI Jakarta 10330</string>
+    <string name="p3">Jl. Proklamasi No.41,
+        \nRT.11/RW.2, Pegangsaan, Menteng,
+        \nKota Jakarta Pusat,
+        \nDKI Jakarta 10320</string>
+    <string name="p4">Gedung Crystal of Knowledge,
+        \nKampus Univeritas Indonesia,
+        \nPd. Cina, Beji,
+        \nKota Depok,
+        \nJawa Barat 16424</string>
+    <string name="p5">Gedung Summitmas 1 3rd Floor,
+        \nJl. Jend. Sudirman Kav. 61-62,
+        \nRT.5/RW.3, Senayan, Kby. Baru,
+        \nKota Jakarta Selatan,
+        \nDKI Jakarta 12190</string>
+
+    <string name="opr1">Senin - Jumat
+    \n08.00 - 18.00 WIB
+    \nSabtu - Minggu
+    \n08.00 - 16.00 WIB</string>
+    <string name="opr2">Setiap Hari
+    \n10.00 - 16.00 WIB</string>
+    <string name="opr3">TUTUP</string>
+    <string name="opr4">Senin - Jumat
+    \n08.00 - 19.00 WIB
+    \nSabtu
+    \n08.00 - 16.00 WIB</string>
+    <string name="opr5">Senin - Jumat (Rabu Tutup)
+    \n09.30 - 18.00 WIB
+    \nSabtu (Setiap minggu ke-1, ke-3, ke-5)
+    \n09.00 - 12.30 WIB
+    </string>
+
+
+</resources>

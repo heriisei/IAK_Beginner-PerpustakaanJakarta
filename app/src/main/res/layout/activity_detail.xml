@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbf8cd"
+    android:orientation="vertical"
+    tools:context="com.risnanto.heri.perpustakaanjakarta.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_dark_transparent">
+
+        <ImageView
+            android:id="@+id/gbr_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/perpus_freedom_institute" />
+
+        <TextView
+            android:id="@+id/title_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gbr_item_detail"
+            android:background="@drawable/bg_title"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:text="Perpustakaan"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Alamat :"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="10dp"
+                android:text="Detail"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:paddingTop="20dp"
+                android:text="Waktu Operasional :"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_detail_operasional"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="10dp"
+                android:text="Senin-Sabtu"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
